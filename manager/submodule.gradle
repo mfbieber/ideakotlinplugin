@@ -1,0 +1,9 @@
+configurations {
+    sub_modules {
+        description = "Sub modules"
+    }
+}
+
+dependencies {
+    sub_modules group: 'org.apache.commons', name: 'commons-lang3', version: '3.12.0', ext: 'jar'
+}
